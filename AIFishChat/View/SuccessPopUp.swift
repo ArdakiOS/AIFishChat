@@ -8,11 +8,26 @@
 import SwiftUI
 
 struct SuccessPopUp: View {
+    let text : String
+    @EnvironmentObject var langMan : LanguageManager
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack{
+            Image(.checkmark)
+                .resizable()
+                .frame(width: 20, height: 20)
+            Text(text.localizedString(langMan.currentLanguage))
+                .font(.custom(FontHelper.med.name(), size: 16))
+                .foregroundStyle(.white)
+        }
+        .padding()
+        .background{
+            Color(hex: "#407CF3")
+        }
+        .clipShape(RoundedRectangle(cornerRadius: 100))
     }
 }
 
 #Preview {
-    SuccessPopUp()
+    SuccessPopUp(text: "Text copied")
+        .environmentObject(LanguageManager())
 }

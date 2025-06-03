@@ -3,6 +3,44 @@
 import Foundation
 import SwiftUI
 
+enum Languages : CaseIterable{
+    case en, ru, fre, esp, ger, ita
+    
+    func displayName() -> String {
+        switch self {
+        case .en:
+            "English"
+        case .ru:
+            "Russian"
+        case .fre:
+            "French"
+        case .esp:
+            "Spanish"
+        case .ger:
+            "German"
+        case .ita:
+            "Italian"
+        }
+    }
+    
+    func langCode() -> String{
+        switch self {
+        case .en:
+            "en"
+        case .ru:
+            "ru"
+        case .fre:
+            "fr"
+        case .esp:
+            "es"
+        case .ger:
+            "de"
+        case .ita:
+            "it"
+        }
+    }
+}
+
 
 class LanguageManager: ObservableObject {
     @Published var currentLanguage: String = "en" {

@@ -1,7 +1,38 @@
-/* 
-  Localizable.strings
-  AIFishChat
-
-  Created by Ardak Tursunbayev on 04.03.2025.
-  
-*/
+"Fish AI Chat" = "Fish AI Chat";
+"Create img" = "Создать изображение";
+"Hello, i’m Deep Search AI" = "Привет, я Deep Search AI";
+"How can I help you today?" = "Как я могу помочь вам сегодня?";
+"Send a message" = "Отправить сообщение";
+"Enter the promt" = "Введите запрос";
+"Generate" = "Сгенерировать";
+"Deep AI Plus" = "Deep AI Plus";
+"Increase productivity and\ncreativity with enhanced Access" = "Повышайте продуктивность и\nкреативность с расширенным доступом";
+"Cancel anytime" = "Отменить в любое время";
+"Try for free" = "Попробовать бесплатно";
+"Restore" = "Восстановить";
+"Terms" = "Условия";
+"Privacy" = "Конфиденциальность";
+"Unlimited chat with AI" = "Безлимитный чат с ИИ";
+"Access to an improved version of the assistant" = "Доступ к улучшенной версии ассистента";
+"Unlimited generation and unlimited promts" = "Неограниченная генерация и неограниченные запросы";
+"10% benefit" = "10% выгода";
+"Upgrade to Fish Plus" = "Обновиться до Fish Plus";
+"Try for free" = "Попробовать бесплатно";
+"Settings" = "Настройки";
+"General" = "Общие";
+"Language" = "Язык";
+"Color Theme" = "Цветовая тема";
+"Other" = "Другое";
+"Terms of Use" = "Условия использования";
+"Privacy Policy" = "Политика конфиденциальности";
+"Contact Us" = "Свяжитесь с нами";
+"Rate Us" = "Оцените нас";
+"Something went wrong, please try again" = "Что-то пошло не так, попробуйте еще раз";
+"Continue" = "Продолжить";
+"Text copied" = "Текст скопирован";
+"Image saved" = "Изображение сохранено";
+"Yearly Plan" = "Годовой план";
+"Unlocks all functions" = "Разблокирует все функции";
+"year" = "год";
+"Monthly plan" = "Месячный план";
+"month" = "месяц";

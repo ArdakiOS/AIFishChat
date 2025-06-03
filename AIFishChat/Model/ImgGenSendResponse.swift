@@ -7,7 +7,8 @@
 
 
 struct ImgGenSendResponse: Codable {
-    let requestID, prompt, imageURL: String
+    let requestID, prompt : String
+    let imageURL : String?
 
     enum CodingKeys: String, CodingKey {
         case requestID = "request_id"
@@ -15,3 +16,13 @@ struct ImgGenSendResponse: Codable {
         case imageURL = "image_url"
     }
 }
+
+// MARK: - ReusltImgResponse
+struct ReusltImgResponse: Codable {
+    let fileURL: String?
+
+    enum CodingKeys: String, CodingKey {
+        case fileURL = "file_url"
+    }
+}
+

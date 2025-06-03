@@ -35,6 +35,7 @@ class ApphudSubsManager : ObservableObject {
     
     init() {
         hasSubscription = Apphud.hasActiveSubscription()
+        getPayWallProducts(id: ApphudPaywallIds.inapp.rawValue)
         print("hasSubscription \(hasSubscription)")
     }
     

@@ -6,13 +6,30 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		98F3B4DC2D7F137200E99A53 /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 98F3B4DB2D7F137200E99A53 /* ApphudSDK */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		9876117A2D6A07D400B8664F /* AIFishChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AIFishChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		987611942D6A090300B8664F /* Exceptions for "AIFishChat" folder in "AIFishChat" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 987611792D6A07D400B8664F /* AIFishChat */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9876117C2D6A07D400B8664F /* AIFishChat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				987611942D6A090300B8664F /* Exceptions for "AIFishChat" folder in "AIFishChat" target */,
+			);
 			path = AIFishChat;
 			sourceTree = "<group>";
 		};
@@ -23,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98F3B4DC2D7F137200E99A53 /* ApphudSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +83,7 @@
 			);
 			name = AIFishChat;
 			packageProductDependencies = (
+				98F3B4DB2D7F137200E99A53 /* ApphudSDK */,
 			);
 			productName = AIFishChat;
 			productReference = 9876117A2D6A07D400B8664F /* AIFishChat.app */;
@@ -91,9 +110,17 @@
 			knownRegions = (
 				en,
 				Base,
+				it,
+				de,
+				fr,
+				ru,
+				es,
 			);
 			mainGroup = 987611712D6A07D400B8664F;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				98F3B4DA2D7F137200E99A53 /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 9876117B2D6A07D400B8664F /* Products */;
 			projectDirPath = "";
@@ -254,21 +281,31 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AIFishChat/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIFishChat/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To add images to chat";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save images user has generated";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To add images to chat";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AIFishChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIFishChatt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -282,21 +319,31 @@
 				DEVELOPMENT_ASSET_PATHS = "\"AIFishChat/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AIFishChat/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To add images to chat";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "To save images user has generated";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "To add images to chat";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.AIFishChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AIFishChatt;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -322,6 +369,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		98F3B4DA2D7F137200E99A53 /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		98F3B4DB2D7F137200E99A53 /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 98F3B4DA2D7F137200E99A53 /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 987611722D6A07D400B8664F /* Project object */;
 }

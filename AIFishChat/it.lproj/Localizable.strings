@@ -1,7 +1,38 @@
-/* 
-  Localizable.strings
-  AIFishChat
-
-  Created by Ardak Tursunbayev on 04.03.2025.
-  
-*/
+"Fish AI Chat" = "Fish AI Chat";
+"Create img" = "Crea immagine";
+"Hello, i’m Deep Search AI" = "Ciao, sono Deep Search AI";
+"How can I help you today?" = "Come posso aiutarti oggi?";
+"Send a message" = "Invia un messaggio";
+"Enter the promt" = "Inserisci il prompt";
+"Generate" = "Genera";
+"Deep AI Plus" = "Ottieni Deep AI Plus";
+"Increase productivity and\ncreativity with enhanced Access" = "Aumenta la produttività e\nla creatività con un accesso avanzato";
+"Cancel anytime" = "Annulla in qualsiasi momento";
+"Try for free" = "Prova gratis";
+"Restore" = "Ripristina";
+"Terms" = "Termini";
+"Privacy" = "Privacy";
+"Unlimited chat with AI" = "Chat illimitata con l'AI";
+"Access to an improved version of the assistant" = "Accesso a una versione migliorata dell’assistente";
+"Unlimited generation and unlimited promts" = "Generazione illimitata e prompt illimitati";
+"10% benefit" = "10% di vantaggio";
+"Upgrade to Fish Plus" = "Passa a Fish Plus";
+"Try for free" = "Prova gratis";
+"Settings" = "Impostazioni";
+"General" = "Generale";
+"Language" = "Lingua";
+"Color Theme" = "Tema colore";
+"Other" = "Altro";
+"Terms of Use" = "Termini di utilizzo";
+"Privacy Policy" = "Informativa sulla privacy";
+"Contact Us" = "Contattaci";
+"Rate Us" = "Valutaci";
+"Something went wrong, please try again" = "Qualcosa è andato storto, per favore riprova";
+"Continue" = "Continua";
+"Text copied" = "Testo copiato";
+"Image saved" = "Immagine salvata";
+"Yearly Plan" = "Piano annuale";
+"Unlocks all functions" = "Sblocca tutte le funzioni";
+"year" = "anno";
+"Monthly plan" = "Piano mensile";
+"month" = "mese";
